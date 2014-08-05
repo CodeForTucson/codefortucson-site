@@ -1,7 +1,7 @@
-Code For DC Website
+Code For Tucson Website
 =============
 
-This is the repository for the website for Code for Tucson, the Tucson chapter of the Code for America Brigade program. It is based on the website for Code for DC.
+This is the repository for the website for Code for Tucson, the Tucson chapter of the Code for America Brigade program. It is based on the website for [Code for DC](http://www.codefordc.org).
 
 This site is built on Github pages and uses Jekyll for its blog.
 
