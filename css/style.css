@@ -48,7 +48,7 @@ hr.footer-divider {
 
 
 .hero {
-	background: url('/images/bohemian-caverns.jpg');
+	background: url('/images/hero_bg.jpg');
 	background-size: cover;
 	min-height: 300px;
 	min-width: 400px;
@@ -56,12 +56,18 @@ hr.footer-divider {
 }
 
 .hero-text{
-	text-align:center;
-	font-size:150px;
-	font-weight:bold;
-	color: white;
-	background-color: rgba(0,0,0,.5);
+	text-align:left;
+	padding-left: 15%;
+	background-color: rgba(0,0,0,0.15);
 	margin-top:25px;
+}
+.hero-text img {
+	height: 200px;
+	padding: 15px;
+}
+
+.hero-text h1 {
+	display: none;
 }
 
 
@@ -318,4 +324,18 @@ img.project-git-human {
 	font-weight: normal;
 }
 
+/***************************/
+/*  footer */
+/***************************/
 
+.footer {
+	text-align: left;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.footer img {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
