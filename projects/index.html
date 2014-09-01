@@ -13,13 +13,14 @@ title: Projects
 		<div id="project-list"><!-- populated by js --></div>
 		<div class="col-lg-1"></div>
 	</div>
+	{% include footer.html %}
 </div><!-- /.container -->
 
-{% include _global_js.html %}
-<script src="assets/js/jquery.csv-0.71.min.js"></script>
+{% include global_js.html %}
+<script src="{{ site.url }}/assets/js/jquery.csv-0.71.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	$.get('/data/projects.csv', function(data){
+	$.get('{{ site.url }}/data/projects.csv', function(data){
 		var content = $.csv.toArrays(data);
 		content.splice(0,1); //get rid of column headers
 		var html = '';
@@ -67,7 +68,7 @@ $(document).ready(function(){
 					html += 	'<div class="col-lg-12">';
 				}
 
-				html += '<div class="col-lg-2 project-icon"><img src="images/launch.png" width="100px"/></div>';
+				html += '<div class="col-lg-2 project-icon"><img src="{{ site.url }}/images/launch.png" width="100px"/></div>';
 			
 				html += '<div class="col-lg-4 project-text" id="' + projectId + '">	<h3>' + pname + '</h3>';
 				html += "<p class='project-content'>"

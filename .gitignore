@@ -1,3 +1,5 @@
 # Ignore all logfiles and tempfiles.
-.DS_Store
-_site
+.DS_Store*
+_site/
+assets/.sass-cache
+.sass-cache

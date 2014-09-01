@@ -1,3 +1,25 @@
-name: Code for Tucson | A Code for America Brigade
-markdown: redcarpet
+name: Code for Tucson
+description: "Code for Tucson is a Code for America Brigade. The Code for America Brigade program is an international network of people committed to using their voices and hands, in collaboration with local governments, to make their cities better. Brigades build participatory power in their cities by holding regular civic hack nights and events, advocating for open data, and deploying apps. Brigades celebrate and share their successes with the Brigade network to further the global civic innovation movement."
+markdown: kramdown
 highlighter: pygments
+
+owner:
+  name:
+  twitter:
+  facebook:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus: 
+
+google_analytics:
+google_verify:  
+
+sass:
+  sass_dir: assets/_sass
+
+baseurl: /codefortucson-site
+#url: http://CodeForTucson.github.io/codefortucson-site
+# uncomment when working locally
+url:  http://localhost:4000/
+
+kramdown:
+  parse_block_html: true
