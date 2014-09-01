@@ -1,0 +1,348 @@
+/***************************/
+/*  general/sitewide */
+/***************************/
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+.black {
+    background:black;
+    color:white;
+}
+
+.blackish {
+    background:#222;
+    color:white;
+}
+
+.light-grey {
+    background:#eee;
+}
+
+h1.h0 {
+    font-size:59px;
+    font-weight:bold;   
+    margin-top:10px;
+}
+
+.navbar-brand {
+    padding:10px;
+}
+
+hr.footer-divider {
+    border-top: 2px solid #ccc;
+}
+
+.call-out-img {
+    height: 100px;
+}
+
+.mark-50 {
+    width: 50px;
+}
+
+
+/***************************/
+/*  index */
+/***************************/
+
+
+
+.hero {
+    background: url('http://CodeForTucson.github.io/codefortucson-site/images/hero_bg.jpg');
+    background-size: cover;
+    min-height: 300px;
+    min-width: 400px;
+    padding:0;
+}
+
+.hero-text{
+    text-align:left;
+    padding-left: 15%;
+    background-color: rgba(0,0,0,0.15);
+    margin-top:25px;
+}
+.hero-text img {
+    height: 200px;
+    padding: 15px;
+}
+
+.hero-text h1 {
+    display: none;
+}
+
+
+.heading-stripe {
+    margin-top:5px;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:10px;
+}
+
+.heading-stripe h2 {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.announcement-icon {
+    float:left;
+    margin-top:15px;
+    /*margin-left:20px;
+    margin-right:20px;*/
+    margin-bottom:20px;
+}
+
+.announcement-icon img{
+    /*width: 450px;*/
+    width:100%;
+
+}
+.announcement-content {
+    text-align:justify;
+    margin-top:20px;
+    /*margin-left:20px;
+    margin-right:20px;*/
+    margin-bottom:20px;
+}
+
+.stuff-weve-made-stripe {
+    margin-top:60px;
+}
+
+
+.project-stripe-odd,
+.project-stripe-even {
+    margin-top:20px;
+}
+
+.project-stripe-img {
+    background-color:black;
+    padding:2px;
+    margin-bottom:20px;
+}
+
+.project-stripe-img img{
+    width:100%;
+    
+}
+
+.project-stripe-txt {
+    background-color:white;
+    margin-bottom:40px;
+}
+
+.project-stripe-txt h2 {
+    margin-top:0;
+}
+
+img.project-git-human {
+    width: 50px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+/***************************/
+/*  project page */
+/***************************/
+
+
+.project-image,
+.project-text {
+    margin-bottom:40px;
+}
+
+
+
+#project-list h3,
+#press-list h3 { 
+    margin-top:0;
+    margin-bottom:5px;
+}
+
+
+#project-list,
+#press-list {
+    text-align:center;
+}
+
+.project-icon
+{
+    margin-bottom:10px;
+}
+
+/***************************/
+/*  press page */
+/***************************/
+
+.press-item-wrapper {
+
+}
+
+.press-item {
+    background-color: #eee;
+    /*border: 2px solid black;*/
+    margin:10px 0 20px 0;
+    padding:0;
+}
+
+.press-icon {
+    margin-bottom:10px;
+    padding:20px 0 20px 0;
+    background-color:#222;
+
+}
+
+.press-icon img {
+    width:66%;
+    max-width:200px;
+}
+
+.press-text {
+    padding:0 10px 10px 10px;
+}
+
+.press-release-row {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.press-release-row.even {
+
+}
+
+.press-release-row.odd {
+    background-color:#eee;
+}
+
+.press-release-row-icon {
+    margin-bottom:10px;
+}
+
+.press-release-row-icon img{
+    width:100px;
+}
+
+.press-release-row-text {
+    text-align:justify;
+}
+
+/***************************/
+/*  blog post */
+/***************************/
+
+.blog-hero {
+    background: url('/images/fiction-parade - posted-bills.jpg');
+    background-size: cover;
+    min-height: 300px;
+    min-width: 400px;
+    padding:0;
+}
+
+.blog-hero .hero-text {
+    font-size:120px;
+    margin-top:55px;
+}
+
+.post {
+    text-align: left;
+}
+
+.blog-avatar {
+    float:left;
+    max-width: 150px;
+    margin: 4px 15px 10px 0;
+    background: #000    ;
+    padding:0px;
+    border: solid black 0px;
+}
+
+.blog-avatar .blog-avatar-img {
+    width: 150px;
+    border: 4px solid black;
+}
+
+.blog-avatar-content {
+    padding: 5px;
+    text-align: center;
+    color: #CCC;
+    font-size:90%;
+    font-weight:bold;
+}
+
+.post-footer {
+    margin-top: 20px;
+}
+
+.post-footer-previous {
+    float:left;
+}
+
+.post-footer-next {
+    float:right;
+}
+
+.blog-img-wrapper {
+    float:right;
+    padding:10px;
+    border:2px solid black;
+    background:#999;
+    margin: 10px 0 10px 10px;
+}
+
+.blog-img-wrapper img {
+    width: 200px;
+}
+/***************************/
+/*  blog post stub */
+/***************************/
+
+
+.post.stub h2 {
+    text-align:center;
+}
+
+.post.stub h2 a {
+    color: black;
+}
+
+.post.stub h2 a:hover {
+    text-decoration:none;
+    color: #999;
+}
+
+
+.post.stub .blog-avatar {
+    max-width: 100px;
+}
+
+.post.stub .blog-avatar .blog-avatar-img {
+    border: 4px solid black;
+    width: 100px;
+}
+
+.post.stub .blog-avatar-content {
+    font-weight: normal;
+}
+
+/***************************/
+/*  footer */
+/***************************/
+
+.footer {
+    text-align: left;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.footer img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}

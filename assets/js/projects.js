@@ -1,23 +1,3 @@
----
-layout: default
-title: Projects
----
-
-<div class="container">
-	<div class="col-lg-1"></div>
-	<div class="col-lg-10 ">
-		<div class="col-lg-12 starter-template">
-			<h1>Projects</h1>
-			<p class="lead">Code for DC is a collaborative environment in which people with many different skillsets tackle issues they see facing the community. Our projects are always looking for help.  Browse below and you're bound to find a project that needs you!</p>
-		</div>
-		<div id="project-list"><!-- populated by js --></div>
-		<div class="col-lg-1"></div>
-	</div>
-</div><!-- /.container -->
-
-{% include _global_js.html %}
-<script src="assets/js/jquery.csv-0.71.min.js"></script>
-<script type="text/javascript">
 $(document).ready(function(){
 	$.get('/data/projects.csv', function(data){
 		var content = $.csv.toArrays(data);
@@ -69,7 +49,7 @@ $(document).ready(function(){
 
 				html += '<div class="col-lg-2 project-icon"><img src="images/launch.png" width="100px"/></div>';
 			
-				html += '<div class="col-lg-4 project-text" id="' + projectId + '">	<h3>' + pname + '</h3>';
+				html += '<div class="col-lg-10 project-text" id="' + projectId + '">	<h3><a name="'+ pname + '"></a>' + pname + '</h3>';
 				html += "<p class='project-content'>"
 
 				if(pdesc != ""){html += pdesc + '<br/>';}
@@ -122,5 +102,3 @@ function getGitContent(project, url){
 		});
 	});
 }
-
-</script>
