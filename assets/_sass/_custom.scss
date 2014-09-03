@@ -65,7 +65,8 @@ hr.footer-divider {
 .hero-text{
     text-align:left;
     padding-left: 15%;
-    background-color: rgba(0,0,0,0.15);
+    // Remove default hero-text background because we are using a background image.
+    // background-color: rgba(0,0,0,0.15);
     margin-top:25px;
 }
 .hero-text img {
