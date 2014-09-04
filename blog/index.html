@@ -26,9 +26,9 @@ title:  "Code for DC Blog"
                         {% if post.post_gravatar %} 
                             <img src="http://www.gravatar.com/avatar/{{ post.post_gravatar }}?s=100" class="blog-avatar-img" />
                         {% elsif post.post_avatar %}
-                            <img src="assets/images/blog/avatars/{{ post.post_avatar }}" class="blog-avatar-img" />
+                            <img src="{{ site.baseurl }}/assets/images/blog/avatars/{{ post.post_avatar }}" class="blog-avatar-img" />
                         {% else %}
-                            <img src="assets/images/blog/avatars/default.png" class="blog-avatar-img" />
+                            <img src="{{ site.baseurl }}/assets/images/blog/avatars/default.png" class="blog-avatar-img" />
                         {% endif %}
                         <div class="blog-avatar-content">
                             {{ post.post_author }}

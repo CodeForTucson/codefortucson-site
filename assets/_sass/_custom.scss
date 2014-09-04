@@ -1,3 +1,10 @@
+/***************/
+/*  variables  */
+/***************/
+
+// Change this value for gh-pages hosting in a directory
+$site-baseurl: "/codefortucson-site";
+
 /***************************/
 /*  general/sitewide */
 /***************************/
@@ -55,7 +62,7 @@ hr.footer-divider {
 
 
 .hero {
-    background: url('assets/images/hero_bg.jpg');
+    background: url($site-baseurl + '/assets/images/hero_bg.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
@@ -239,7 +246,7 @@ img.project-git-human {
 /***************************/
 
 .blog-hero {
-    background: url('assets/images/blog_hero.jpg');
+    background: url($site-baseurl + 'assets/images/blog_hero.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
