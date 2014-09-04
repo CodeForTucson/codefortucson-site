@@ -34,9 +34,11 @@ If you want more information on getting started with Ruby development, STOP RIGH
 
 ##Hacking
 
-###Update the configuration file
+###Update the configuration files
 
 Look for the `url` key in `_config.yml`.  Uncomment the local development line before starting local development, and **please remember to comment it back out before submitting pull requests**.
+
+Look for the `$site-baseurl` variable in [`assets/_sass/_custom.scss`](https://github.com/colinsf/cft-jekyll-site/blob/master/assets/_sass/_custom.scss#L6).
 
 ###Run `jekyll`
 
