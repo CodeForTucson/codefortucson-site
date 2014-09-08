@@ -16,9 +16,9 @@ layout: default
 					{% if page.post_gravatar %}
 						<img src="http://www.gravatar.com/avatar/{{ page.post_gravatar }}?s=150" class="blog-avatar-img" />
 					{% elsif page.post_avatar %}
-						<img src="/images/blog/avatars/{{ page.post_avatar }}" class="blog-avatar-img" />
+						<img src="{{ site.baseurl }}/assets/images/blog/avatars/{{ page.post_avatar }}" class="blog-avatar-img" />
 					{% else %}
-						<img src="/images/blog/avatars/default.png" class="blog-avatar-img" />
+						<img src="{{ site.baseurl }}/assets/images/blog/avatars/default.png" class="blog-avatar-img" />
 					{% endif %}
 					<div class="blog-avatar-content">
 						by {{ page.post_author }}
