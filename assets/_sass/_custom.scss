@@ -3,7 +3,9 @@
 /***************/
 
 // Change this value for gh-pages hosting in a directory
-$site-baseurl: "/codefortucson-site";
+//$site-baseurl: "/codefortucson-site";
+$site-baseurl: "";
+
 
 /***************************/
 /*  general/sitewide */
@@ -16,7 +18,6 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-
 
 .black {
     background:black;
