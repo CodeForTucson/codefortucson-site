@@ -3,7 +3,7 @@
 /***************/
 
 // Change this value for gh-pages hosting in a directory
-$site-baseurl: "/codefortucson-site";
+site-baseurl: "/codefortucson-site";
 //$site-baseurl: "";
 
 
@@ -157,10 +157,24 @@ img.project-git-human {
     border: 2px solid black;
 }
 
+.stuff-weve-made-stripe .lead {
+    margin-bottom: 50px;
+}
+
 /***************************/
 /*  project page */
 /***************************/
 
+.projects {
+    text-align: left;
+    img {
+        float: left;
+        width: 100px;
+    }
+    margin-bottom: 50px;
+    border-left: 5px solid black;
+    padding-left: 10px;
+}
 
 .project-image,
 .project-text {

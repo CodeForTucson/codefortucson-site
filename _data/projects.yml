@@ -1,0 +1,32 @@
+####################
+# project: "Project Name"
+# github: Github url
+# image: /assets/images/project-imgs/your-img-here
+# description: "Short description of project. Include user need you're addressing, and skillsets you're looking for help with, if applicable."
+# lead: Jane Doe
+# contact: project.contact@email.com
+####################
+- project: "Open Tucson"
+  github: https://github.com/CodeForTucson/opentucson
+  image:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  lead: Dan Stormont
+  contact: daniel.stormont@gmail.com
+- project: "Farmers Market Mapper"
+  github: https://github.com/CodeForTucson/Farmers-Market
+  image:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  lead: Derek Eder
+  contact: http://derekeder.com/
+- project: "Code for Tucson Hackathon 2014"
+  github: https://github.com/CodeForTucson/cft2014
+  image:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  lead: Dan Stormont
+  contact: daniel.stormont@gmail.com
+- project: "Code for Tucson Hackathon 2013"
+  github: https://github.com/CodeForTucson/cft2013
+  image:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  lead: Dan Stormont
+  contact: daniel.stormont@gmail.com
