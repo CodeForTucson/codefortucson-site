@@ -48,7 +48,7 @@ _If you are using RVM, make sure you are using the correct Gemset!_
 
 Start the local web server
 
-    $ jekyll -b '' -w
+    $ jekyll serve -b '' -w
 
 You should now be able to visit http://localhost:4000/ in your browser and see a copy of the Code for Tucson site hosted on your very own computer that updates when you save something! Zoiks!
 
