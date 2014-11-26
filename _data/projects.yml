@@ -6,27 +6,9 @@
 # lead: Jane Doe
 # contact: project.contact@email.com
 ####################
-- project: "Open Tucson"
-  github: https://github.com/CodeForTucson/opentucson
-  image:
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  lead: Dan Stormont
-  contact: daniel.stormont@gmail.com
-- project: "Farmers Market Mapper"
-  github: https://github.com/CodeForTucson/Farmers-Market
-  image:
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  lead: Derek Eder
-  contact: http://derekeder.com/
-- project: "Code for Tucson Hackathon 2014"
-  github: https://github.com/CodeForTucson/cft2014
-  image:
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  lead: Dan Stormont
-  contact: daniel.stormont@gmail.com
-- project: "Code for Tucson Hackathon 2013"
-  github: https://github.com/CodeForTucson/cft2013
-  image:
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+- project: "Tucson Answers"
+  github: https://github.com/CodeForTucson/tucson-answers
+  image: /assets/images/project-answers-400.png
+  description: "Code for Tucson is working with the City of Tucson to improve its Tucson Answers platform. The city wants to understand if Answers is meeting citizen needs, and how to make it better."
   lead: Dan Stormont
   contact: daniel.stormont@gmail.com
