@@ -7,8 +7,8 @@
 # contact: project.contact@email.com
 ####################
 - project: "CodeAcross 2015"
-  github: https://github.com/CodeForTucson/tucson-answers
-  image: /assets/images/project-answers-400.png
+  github: https://www.eventbrite.com/e/codeacross-2015-tickets-15321194104
+  image: /assets/images/code-across-400.jpg
   description: "Code for Tucson is working with the City of Tucson to improve its Tucson Answers platform. The city wants to understand if Answers is meeting citizen needs, and how to make it better."
   lead: Michelle Hertzfeld
   contact: michelle.hertzfeld@gmail.com
