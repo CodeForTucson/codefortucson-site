@@ -6,6 +6,12 @@
 # lead: Jane Doe
 # contact: project.contact@email.com
 ####################
+- project: "CodeAcross 2015"
+  github: https://github.com/CodeForTucson/tucson-answers
+  image: /assets/images/project-answers-400.png
+  description: "Code for Tucson is working with the City of Tucson to improve its Tucson Answers platform. The city wants to understand if Answers is meeting citizen needs, and how to make it better."
+  lead: Michelle Hertzfeld
+  contact: michelle.hertzfeld@gmail.com
 - project: "Tucson Answers"
   github: https://github.com/CodeForTucson/tucson-answers
   image: /assets/images/project-answers-400.png
