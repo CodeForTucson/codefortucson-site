@@ -60,7 +60,7 @@ title: Home
 		        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
 		        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
 		        <p>{% if project.description %}{{ project.description }}{% else %}Coming soon!{% endif %}</p>
-		        <p><a class="github-url" href="{{project.github}}"><i class="icon-github2"></i> See our work on the {{ project.project }} project &#8594;</a></p>
+		        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.project }}! &#8594;</a></p>
 		      </div>
 
 	      </article>
