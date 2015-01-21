@@ -2,6 +2,8 @@
 /*  variables  */
 /***************/
 
+$cft-light-green: #B8E986;
+$cft-dark-green: #437708;
 // Change this value for gh-pages hosting in a directory
 $site-baseurl: "/codefortucson-site";
 //$site-baseurl: "";
@@ -13,6 +15,14 @@ $site-baseurl: "/codefortucson-site";
 
 body {
   padding-top: 50px;
+}
+
+a {
+    color: $cft-dark-green;
+    text-decoration: underline;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
 }
 
 .starter-template {
@@ -356,11 +366,15 @@ img.project-git-human {
     font-size: 14px;
     line-height: 15px;
     border-top: 3px solid dimgray;
-    padding-top: 20px;
-}
-
-.footer img {
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    background-color: lighten($cft-light-green, 10%);
+    padding: 20px 20px 30px 20px;
+    li {  
+      list-style-type: none;
+      padding-bottom: 8px;
+    }
+    img {
+      float: left;
+      padding-right: 10px;
+      padding-bottom: 20px;
+    }
 }
