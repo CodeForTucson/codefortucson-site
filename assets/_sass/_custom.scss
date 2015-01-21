@@ -44,10 +44,6 @@ h1.h0 {
     padding: 10px;
 }
 
-hr.footer-divider {
-    border-top: 2px solid #ccc;
-}
-
 .call-out-img {
     height: 100px;
 }
@@ -359,6 +355,8 @@ img.project-git-human {
     text-align: left;
     font-size: 14px;
     line-height: 15px;
+    border-top: 3px solid dimgray;
+    padding-top: 20px;
 }
 
 .footer img {

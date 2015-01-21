@@ -10,12 +10,9 @@ permalink: /projects/
 </div>
 
 <div class="container">
-			
-	<div class="col-lg-1"></div>
-	<div class="col-lg-10 starter-template">
 
-	<div class="col-lg-12">
-		<h1 class="h0">Projects</h1>
+	<div class="row">
+		<h1 class="h0 col-lg-12">Projects</h1>
 		<div class="col-lg-10">
 			{% for project in site.data.projects %}
 		      <article class="projects row">
@@ -35,8 +32,7 @@ permalink: /projects/
 		      </article>
 		    {% endfor %}
 		</div>
-
-	{% include footer.html %}
+	</div>
 
 </div><!-- /.container -->
 
