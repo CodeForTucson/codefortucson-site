@@ -54,12 +54,34 @@ h1.h0 {
     padding: 10px;
 }
 
+.navbar-nav {
+    a {
+        text-decoration: none;
+    }
+}
+
 .call-out-img {
-    height: 100px;
+    height: 70px;
 }
 
 .mark-50 {
     width: 50px;
+}
+
+.center-home {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.home {
+    .h0 {
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    h2 img {
+        float: left;
+        padding-right: 10px;
+    }
 }
 
 
@@ -68,7 +90,7 @@ h1.h0 {
 /***************************/
 
 .hero {
-    background: url($site-baseurl + '/assets/images/hero_bg_op.jpg');
+    background: url('/assets/images/hero_bg_op.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
@@ -78,8 +100,6 @@ h1.h0 {
 .hero-text {
     text-align: left;
     padding-left: 15%;
-    // Remove default hero-text background because we are using a background image.
-    // background-color: rgba(0,0,0,0.15);
     margin-top: 25px;
 }
 
@@ -368,6 +388,7 @@ img.project-git-human {
     border-top: 3px solid dimgray;
     background-color: lighten($cft-light-green, 10%);
     padding: 20px 20px 30px 20px;
+    margin-top: 20px;
     li {  
       list-style-type: none;
       padding-bottom: 8px;
