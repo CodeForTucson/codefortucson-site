@@ -113,7 +113,7 @@ height: 100%;
 /***************************/
 
 .hero {
-    background: url('/assets/images/hero_bg_op.jpg');
+    background: url($site-baseurl + '/assets/images/hero_bg_op.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
