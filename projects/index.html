@@ -18,7 +18,7 @@ permalink: /projects/
 		<h1 class="h0">Projects</h1>
 		<div class="col-lg-10">
 			{% for project in site.data.projects %}
-		      <article class="projects">
+		      <article class="projects row">
 
 		      	<div class="col-lg-4">
 		        	<img {% if project.image %} src="{{ site.baseurl }}{{ project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{project.project}}">
