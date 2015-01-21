@@ -1,37 +1,25 @@
 ---
-layout: default
+layout: subpage
 title: Projects
 permalink: /projects/
 ---
 
-<div class="col-lg-12 hero">
-	<div class="hero-text"><img src="{{ site.baseurl }}/assets/images/CodeForTucson_logo_dark.png" 
-	 alt="Code for Tucson logo"><h1>Code for Tucson</h1></div>
+<div class="col-lg-10">
+	{% for project in site.data.projects %}
+      <article class="projects row">
+
+      	<div class="col-lg-4">
+        	<img {% if project.image %} src="{{ site.baseurl }}{{ project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{project.project}}">
+        </div>
+
+        <div class="col-lg-8">
+	        <h1>{{project.project}}</h1>
+	        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
+	        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
+	        <p>{% if project.description %}{{ project.description }}{% else %}Coming soon!{% endif %}</p>
+	        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.project }}! &#8594;</a></p>
+	      </div>
+
+      </article>
+    {% endfor %}
 </div>
-
-<div class="container">
-
-	<div class="row text-center">
-		<h1 class="h0 col-lg-12">Projects</h1>
-		<div class="col-lg-10">
-			{% for project in site.data.projects %}
-		      <article class="projects row">
-
-		      	<div class="col-lg-4">
-		        	<img {% if project.image %} src="{{ site.baseurl }}{{ project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{project.project}}">
-		        </div>
-
-		        <div class="col-lg-8">
-			        <h1>{{project.project}}</h1>
-			        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
-			        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
-			        <p>{% if project.description %}{{ project.description }}{% else %}Coming soon!{% endif %}</p>
-			        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.project }}! &#8594;</a></p>
-			      </div>
-
-		      </article>
-		    {% endfor %}
-		</div>
-	</div>
-
-</div><!-- /.container -->

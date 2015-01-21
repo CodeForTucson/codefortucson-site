@@ -1,35 +1,22 @@
 ---
-layout: default
+layout: subpage
 title: Talk
 permalink: /talk/
 ---
 
-<div class="col-lg-12 hero">
-	<div class="hero-text"><img src="{{ site.baseurl }}/assets/images/CodeForTucson_logo_dark.png" 
-	 alt="Code for Tucson logo"><h1>Code for Tucson</h1></div>
-</div>
+<!-- START google group iframe -->
+	<iframe id="forum_embed"
+ src="javascript:void(0)"
+ scrolling="no"
+ frameborder="0"
+ width="900"
+ height="700">
+</iframe>
 
-<div class="container">
-
-	<div class="row text-center">
-		<h1 class="h0">Talk</h1>
-
-		<!-- START google group iframe -->
-    	<iframe id="forum_embed"
-		 src="javascript:void(0)"
-		 scrolling="no"
-		 frameborder="0"
-		 width="900"
-		 height="700">
-		</iframe>
-
-		<script type="text/javascript">
-		 document.getElementById("forum_embed").src =
-		  "https://groups.google.com/forum/embed/?place=forum/codefortucsonbrigade" +
-		  "&showsearch=true&showpopout=true&parenturl=" +
-		  encodeURIComponent(window.location.href);
-		</script>
-		<!-- END google group iframe -->
-	</div>
-
-</div><!-- /.container -->
+<script type="text/javascript">
+ document.getElementById("forum_embed").src =
+  "https://groups.google.com/forum/embed/?place=forum/codefortucsonbrigade" +
+  "&showsearch=true&showpopout=true&parenturl=" +
+  encodeURIComponent(window.location.href);
+</script>
+<!-- END google group iframe -->
