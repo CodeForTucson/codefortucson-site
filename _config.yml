@@ -3,6 +3,8 @@ description: "Code for Tucson is a Code for America Brigade. The Code for Americ
 markdown: kramdown
 highlighter: pygments
 
+permalinks: pretty
+
 owner:
   name: Code for Tucson
   twitter:
