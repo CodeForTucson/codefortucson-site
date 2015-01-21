@@ -48,6 +48,8 @@ h1.h0 {
     font-size: 59px;
     font-weight: bold;   
     margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -74,22 +76,35 @@ h1.h0 {
 }
 
 .home {
-    .h0 {
-        padding-top: 20px;
-        margin-bottom: 0;
-    }
     h2 img {
         float: left;
         padding-right: 10px;
     }
 }
 
-.leadership, .subpage {
+.subpage {
     text-align: left;
     font-size: 16px;
     li {
         list-style-type: none;
     }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 
