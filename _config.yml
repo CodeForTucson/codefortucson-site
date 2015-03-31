@@ -3,8 +3,10 @@ description: "Code for Tucson is a Code for America Brigade. The Code for Americ
 markdown: kramdown
 highlighter: pygments
 
+permalinks: pretty
+
 owner:
-  name:
+  name: Code for Tucson
   twitter:
   facebook:
   # For Google Authorship https://plus.google.com/authorship
@@ -16,8 +18,8 @@ google_verify:
 sass:
   sass_dir: assets/_sass
 
-baseurl: /codefortucson-site
-url: http://CodeForTucson.github.io/codefortucson-site
+baseurl: http://codefortucson.github.io/codefortucson-site
+url: http://www.codefortucson.org
 #uncomment when working locally
 #url:  http://localhost:4000/
 

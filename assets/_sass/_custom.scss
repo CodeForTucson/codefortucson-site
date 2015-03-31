@@ -1,3 +1,14 @@
+/***************/
+/*  variables  */
+/***************/
+
+$cft-light-green: #B8E986;
+$cft-dark-green: #437708;
+// Change this value for gh-pages hosting in a directory
+$site-baseurl: "/codefortucson-site";
+//$site-baseurl: "";
+
+
 /***************************/
 /*  general/sitewide */
 /***************************/
@@ -5,46 +16,95 @@
 body {
   padding-top: 50px;
 }
+
+a {
+    color: $cft-dark-green;
+    text-decoration: underline;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
 
-
 .black {
-    background:black;
-    color:white;
+    background: black;
+    color: white;
 }
 
 .blackish {
-    background:#222;
-    color:white;
+    background: #222;
+    color: white;
 }
 
 .light-grey {
-    background:#eee;
+    background: #eee;
 }
 
 h1.h0 {
-    font-size:59px;
-    font-weight:bold;   
-    margin-top:10px;
+    font-size: 59px;
+    font-weight: bold;   
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
-    padding:10px;
+    padding: 10px;
 }
 
-hr.footer-divider {
-    border-top: 2px solid #ccc;
+.navbar-nav {
+    a {
+        text-decoration: none;
+    }
 }
 
 .call-out-img {
-    height: 100px;
+    height: 70px;
 }
 
 .mark-50 {
     width: 50px;
+}
+
+.center-home {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.home {
+    h2 img {
+        float: left;
+        padding-right: 10px;
+    }
+}
+
+.subpage {
+    text-align: left;
+    font-size: 16px;
+    li {
+        list-style-type: none;
+    }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 
@@ -52,22 +112,20 @@ hr.footer-divider {
 /*  index */
 /***************************/
 
-
-
 .hero {
-    background: url('http://CodeForTucson.github.io/codefortucson-site/images/hero_bg.jpg');
+    background: url($site-baseurl + '/assets/images/hero_bg_op.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
-    padding:0;
+    padding: 0;
 }
 
-.hero-text{
-    text-align:left;
+.hero-text {
+    text-align: left;
     padding-left: 15%;
-    background-color: rgba(0,0,0,0.15);
-    margin-top:25px;
+    margin-top: 25px;
 }
+
 .hero-text img {
     height: 200px;
     padding: 15px;
@@ -76,7 +134,6 @@ hr.footer-divider {
 .hero-text h1 {
     display: none;
 }
-
 
 .heading-stripe {
     margin-top:5px;
@@ -98,11 +155,11 @@ hr.footer-divider {
     margin-bottom:20px;
 }
 
-.announcement-icon img{
+.announcement-icon img {
     /*width: 450px;*/
-    width:100%;
-
+    width: 100%;
 }
+
 .announcement-content {
     text-align:justify;
     margin-top:20px;
@@ -112,53 +169,67 @@ hr.footer-divider {
 }
 
 .stuff-weve-made-stripe {
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 
 .project-stripe-odd,
 .project-stripe-even {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .project-stripe-img {
-    background-color:black;
-    padding:2px;
-    margin-bottom:20px;
+    background-color: black;
+    padding: 2px;
+    margin-bottom: 20px;
 }
 
 .project-stripe-img img{
-    width:100%;
-    
+    width: 100%;
 }
 
 .project-stripe-txt {
-    background-color:white;
-    margin-bottom:40px;
+    background-color: white;
+    margin-bottom: 40px;
 }
 
 .project-stripe-txt h2 {
-    margin-top:0;
+    margin-top: 0;
 }
 
 img.project-git-human {
     width: 50px;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     border: 2px solid black;
+}
+
+.stuff-weve-made-stripe .lead {
+    margin-bottom: 50px;
 }
 
 /***************************/
 /*  project page */
 /***************************/
 
+.projects {
+    text-align: left;
+    img {
+        float: left;
+        width: 100%;
+        border: 1px solid black;
+    }
+    h1 {
+        margin-top: 0;
+    }
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
 
 .project-image,
 .project-text {
     margin-bottom:40px;
 }
-
-
 
 #project-list h3,
 #press-list h3 { 
@@ -166,14 +237,12 @@ img.project-git-human {
     margin-bottom:5px;
 }
 
-
 #project-list,
 #press-list {
     text-align:center;
 }
 
-.project-icon
-{
+.project-icon {
     margin-bottom:10px;
 }
 
@@ -196,7 +265,6 @@ img.project-git-human {
     margin-bottom:10px;
     padding:20px 0 20px 0;
     background-color:#222;
-
 }
 
 .press-icon img {
@@ -238,7 +306,7 @@ img.project-git-human {
 /***************************/
 
 .blog-hero {
-    background: url('/images/fiction-parade - posted-bills.jpg');
+    background: url($site-baseurl + 'assets/images/blog_hero.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
@@ -299,6 +367,7 @@ img.project-git-human {
 .blog-img-wrapper img {
     width: 200px;
 }
+
 /***************************/
 /*  blog post stub */
 /***************************/
@@ -339,10 +408,17 @@ img.project-git-human {
     text-align: left;
     font-size: 14px;
     line-height: 15px;
-}
-
-.footer img {
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    border-top: 3px solid dimgray;
+    background-color: lighten($cft-light-green, 10%);
+    padding: 20px 20px 30px 20px;
+    margin-top: 20px;
+    li {  
+      list-style-type: none;
+      padding-bottom: 8px;
+    }
+    img {
+      float: left;
+      padding-right: 10px;
+      padding-bottom: 20px;
+    }
 }

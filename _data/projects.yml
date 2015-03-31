@@ -1,0 +1,22 @@
+####################
+# project: "Project Name"
+# github: Github url
+# image: /assets/images/project-imgs/your-img-here
+# description: "Short description of project. Include user need you're addressing, and skillsets you're looking for help with, if applicable."
+# lead: Jane Doe
+# contact: project.contact@email.com
+####################
+- project: "CodeAcross 2015"
+  link: https://www.eventbrite.com/e/codeacross-2015-tickets-15321194104
+  intro: Register here for 
+  image: /assets/images/code-across-400.jpg
+  description: "A weekend of simultaneous, coordinated events that coincides with Code for America 2015 Fellows last weekend of residence and International Open Data Day. This is the fourth annual CodeAcross event. Code for Tucson is hosting a Feb 21 Saturday event at CoLab. More details to come!"
+  lead: Michelle Hertzfeld
+  contact: mhertzfeld@gmail.com
+- project: "Tucson Answers"
+  link: https://github.com/CodeForTucson/tucson-answers
+  intro: See our work on  
+  image: /assets/images/project-answers-400.png
+  description: "Code for Tucson is working with the City of Tucson to improve its Tucson Answers platform. The city wants to understand if Answers is meeting citizen needs, and how to make it better."
+  lead: Dan Stormont
+  contact: daniel.stormont@gmail.com
