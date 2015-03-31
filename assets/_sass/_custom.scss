@@ -2,6 +2,8 @@
 /*  variables  */
 /***************/
 
+$cft-light-green: #B8E986;
+$cft-dark-green: #437708;
 // Change this value for gh-pages hosting in a directory
 $site-baseurl: "/codefortucson-site";
 //$site-baseurl: "";
@@ -13,6 +15,14 @@ $site-baseurl: "/codefortucson-site";
 
 body {
   padding-top: 50px;
+}
+
+a {
+    color: $cft-dark-green;
+    text-decoration: underline;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
 }
 
 .starter-template {
@@ -38,22 +48,63 @@ h1.h0 {
     font-size: 59px;
     font-weight: bold;   
     margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
     padding: 10px;
 }
 
-hr.footer-divider {
-    border-top: 2px solid #ccc;
+.navbar-nav {
+    a {
+        text-decoration: none;
+    }
 }
 
 .call-out-img {
-    height: 100px;
+    height: 70px;
 }
 
 .mark-50 {
     width: 50px;
+}
+
+.center-home {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.home {
+    h2 img {
+        float: left;
+        padding-right: 10px;
+    }
+}
+
+.subpage {
+    text-align: left;
+    font-size: 16px;
+    li {
+        list-style-type: none;
+    }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 
@@ -62,7 +113,7 @@ hr.footer-divider {
 /***************************/
 
 .hero {
-    background: url($site-baseurl + '/assets/images/hero_bg.jpg');
+    background: url($site-baseurl + '/assets/images/hero_bg_op.jpg');
     background-size: cover;
     min-height: 300px;
     min-width: 400px;
@@ -72,8 +123,6 @@ hr.footer-divider {
 .hero-text {
     text-align: left;
     padding-left: 15%;
-    // Remove default hero-text background because we are using a background image.
-    // background-color: rgba(0,0,0,0.15);
     margin-top: 25px;
 }
 
@@ -168,13 +217,12 @@ img.project-git-human {
     img {
         float: left;
         width: 100%;
-        padding-bottom: 5px;
+        border: 1px solid black;
     }
     h1 {
         margin-top: 0;
     }
     margin-bottom: 50px;
-    border-left: 5px solid black;
     padding-left: 10px;
 }
 
@@ -360,10 +408,17 @@ img.project-git-human {
     text-align: left;
     font-size: 14px;
     line-height: 15px;
-}
-
-.footer img {
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    border-top: 3px solid dimgray;
+    background-color: lighten($cft-light-green, 10%);
+    padding: 20px 20px 30px 20px;
+    margin-top: 20px;
+    li {  
+      list-style-type: none;
+      padding-bottom: 8px;
+    }
+    img {
+      float: left;
+      padding-right: 10px;
+      padding-bottom: 20px;
+    }
 }

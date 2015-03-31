@@ -6,8 +6,23 @@
 # lead: Jane Doe
 # contact: project.contact@email.com
 ####################
+- project: "Community Calendar"
+  link: https://github.com/CodeForTucson/community-calendar
+  intro: See our work on 
+  image: /assets/images/mark_rectangle_400.png
+  description: "Based on feedback and suggestions from community members, Tucson would really love to see 'One Calendar to Rule Them All.' We're working to creatively solve the distributed community events problem (web scraping, Elasticsearch and intuitive UI, anyone?)."
+  lead: Michelle Hertzfeld
+  contact: mhertzfeld@gmail.com
+- project: "CodeAcross 2015"
+  link: https://www.eventbrite.com/e/codeacross-2015-tickets-15321194104
+  intro: Register here for 
+  image: /assets/images/code-across-400.jpg
+  description: "A weekend of simultaneous, coordinated events that coincides with Code for America 2015 Fellows last weekend of residence and International Open Data Day. This is the fourth annual CodeAcross event. Code for Tucson is hosting a Feb 21 Saturday event at CoLab. More details to come!"
+  lead: Michelle Hertzfeld
+  contact: mhertzfeld@gmail.com
 - project: "Tucson Answers"
-  github: https://github.com/CodeForTucson/tucson-answers
+  link: https://github.com/CodeForTucson/tucson-answers
+  intro: See our work on  
   image: /assets/images/project-answers-400.png
   description: "Code for Tucson is working with the City of Tucson to improve its Tucson Answers platform. The city wants to understand if Answers is meeting citizen needs, and how to make it better."
   lead: Dan Stormont
