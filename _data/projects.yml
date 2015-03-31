@@ -6,6 +6,13 @@
 # lead: Jane Doe
 # contact: project.contact@email.com
 ####################
+- project: "Community Calendar"
+  link: https://github.com/CodeForTucson/community-calendar
+  intro: See our work on 
+  image: /assets/images/mark_rectangle_400.png
+  description: "Based on feedback and suggestions from community members, Tucson would really love to see 'One Calendar to Rule Them All.' We're working to creatively solve the distributed community events problem (web scraping, Elasticsearch and intuitive UI, anyone?)."
+  lead: Michelle Hertzfeld
+  contact: mhertzfeld@gmail.com
 - project: "CodeAcross 2015"
   link: https://www.eventbrite.com/e/codeacross-2015-tickets-15321194104
   intro: Register here for 
