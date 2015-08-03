@@ -6,30 +6,44 @@
 # lead: Jane Doe
 # contact: project.contact@email.com
 ####################
+- project: "City SDK"
+  link: https://github.com/CodeForTucson/ndoch-city-sdk
+  intro: See our work on
+  image: /assets/images/citysdk.png
+  description: "This project was launched in response to the City SDK Challenge from Code for America's Hack For Change initiative. Our goal is to develop an open source web application to allow for local leaders, agencies, and citizens to cross examine data from federal, state, county, and city sources with ease. For example, comparing the locations of farmer's markets with average household income, in order to illustrate potential food deserts in the Tucson metro area."
+  lead: Andrew Slattery and Corey Bishop
+  contact: "@aslattery"
+- project: "My Representatives"
+  link: http://codefortucson.github.io/myreps/
+  intro: See our work on
+  image: /assets/images/myreps.png
+  description: "My Representatives is the fastest and easiest way to find out who is representing you at every level of government. Simply enter your street address and zip code to see who your elected officials are categorized according to the level of government at which they serve."
+  lead: Chris Elsner
+  contact: mhertzfeld@gmail.com
 - project: "National Day of Civic Hacking 2015"
   link: http://www.meetup.com/Code-for-Tucson/events/222338265/
-  intro: Register here for the  
+  intro: Register here for the
   image: /assets/images/civic-hack-day-2015.png
   description: "Code for Tucson invites YOU to the National Day of Civic Hacking! Thousands of people from across the United States will come together to build using publicly-released data, technology, and design processes to improve our communities and the governments that serve them. Anyone can participate; you don’t have to be an expert in technology, you just have to care about your neighborhood and community."
   lead: Michelle Hertzfeld
   contact: mhertzfeld@gmail.com
 - project: "Community Calendar"
   link: https://github.com/CodeForTucson/community-calendar
-  intro: See our work on 
+  intro: See our work on
   image: /assets/images/mark_rectangle_400.png
   description: "Based on feedback and suggestions from community members, Tucson would really love to see 'One Calendar to Rule Them All.' We're working to creatively solve the distributed community events problem (web scraping, Elasticsearch and intuitive UI, anyone?)."
   lead: Michelle Hertzfeld
   contact: mhertzfeld@gmail.com
 - project: "CodeAcross 2015"
   link: https://www.eventbrite.com/e/codeacross-2015-tickets-15321194104
-  intro: Register here for 
+  intro: Register here for
   image: /assets/images/code-across-400.jpg
   description: "A weekend of simultaneous, coordinated events that coincides with Code for America 2015 Fellows last weekend of residence and International Open Data Day. This is the fourth annual CodeAcross event. Code for Tucson is hosting a Feb 21 Saturday event at CoLab. More details to come!"
   lead: Michelle Hertzfeld
   contact: mhertzfeld@gmail.com
 - project: "Tucson Answers"
   link: https://github.com/CodeForTucson/tucson-answers
-  intro: See our work on  
+  intro: See our work on
   image: /assets/images/project-answers-400.png
   description: "Code for Tucson is working with the City of Tucson to improve its Tucson Answers platform. The city wants to understand if Answers is meeting citizen needs, and how to make it better."
   lead: Dan Stormont
