@@ -34,11 +34,13 @@ If you want more information on getting started with Ruby development, STOP RIGH
 
 ## Local development and hacking
 
-In order to run this website in your local environment, you will need to have **Jekyll** serve it. GitHub Pages (the host of [codefortucson.org](codefortucson.org)) has some strange requirements on the base URL for its sites. Before we can run and test locally, we need to overwrite the corresponding settings. Thankfully, we can do this by simply appending the local development config file to the **Jekyll** command.
+In order to run this website in your local environment, you will need to have **Jekyll** serve it. GitHub Pages (the host of [codefortucson.org](codefortucson.org)) has some strange requirements on the base URL for its sites. Before we can run and test locally, we need to overwrite the corresponding settings. Thankfully, we can do this by simply appending the local development config file to the **Jekyll** command, which is done for you already in the **Makefile**.
 
 ```bash
-jekyll serve --config _config.yml,_config_local.yml --baseurl '' --watch
+make
 ```
+
+That's all it takes! Now you have a running Jekyll server on your local machine that will automatically watch for changes to the source files and update accordingly in response.
 
 _If you are using RVM, make sure you are using the correct Gemset!_
     
