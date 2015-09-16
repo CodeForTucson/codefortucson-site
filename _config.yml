@@ -20,8 +20,8 @@ sass:
 
 baseurl: http://codefortucson.github.io/codefortucson-site
 url: http://www.codefortucson.org
-#uncomment when working locally
-#url:  http://localhost:4000/
 
 kramdown:
   parse_block_html: true
+
+production: true
