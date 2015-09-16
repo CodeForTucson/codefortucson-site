@@ -31,6 +31,19 @@ You should be able to install them via [RubyGems](https://rubygems.org). GitHub 
 
 If you want more information on getting started with Ruby development, STOP RIGHT THERE.  Use RVM instead.  If you're still using Ruby in 6 months, you'll thank us profusely.
 
+#### Optimizing the assets
+
+We depend on a couple of tools to optimize the assets during the build process and you will need to make sure that they are installed.
+
+ * `ImageMagick` - used to resize images
+ * `jpegoptim` - used to optimize the encoding of JPEG images
+
+If you are running OSX, you can use [brew](brew.sh) to install these packages.
+
+```bash
+brew install imagemagick jpegoptim
+```
+
 ## Local development and hacking
 
 In order to run this website in your local environment, you will need to have **Jekyll** serve it. GitHub Pages (the host of [codefortucson.org](codefortucson.org)) has some strange requirements on the base URL for its sites. Before we can run and test locally, we need to overwrite the corresponding settings. Thankfully, we can do this by simply appending the local development config file to the **Jekyll** command, which is done for you already in the **Makefile**.
@@ -59,3 +72,9 @@ Getting started with **git** can be confusing if you haven't worked with it befo
 <!-- ###Special pages:
 + Press page uses /data/press.csv to populate its press listing (but not the press releases, which are hard-coded)
 + Blog pages are built programmatically using Jekyll from the entries in the /blog/_posts directory.  There is similar content in the /blog/drafts directory, but these entries are working copies only that are not displayed on teh public website. -->
+
+#### Hacking images
+
+Save high-resolution or high-quality images inside the `source_assets/images` folder and don't worry about optimizing them. Reference those images as if you had saved them inside the `assets/images` folder. Each time you generate the site, the build script will copy over any new or changed images into the `assets/images` folder, maintaining the directory structure, and optimized the images for you.
+
+Make sure to build the site before checking in and add the new image itself as well as its optimized counterpart into your `git` commit. If you only need to generate the images, you can run `make optimized-images` instead of `make`.
