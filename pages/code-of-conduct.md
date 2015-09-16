@@ -2,6 +2,7 @@
 layout: subpage
 title: Code of Conduct
 permalink: /code-of-conduct/
+slug: code-of-conduct
 ---
 
 <div class="col-lg-9 subpage">

@@ -56,6 +56,10 @@ h1.h0 {
     a {
         text-decoration: none;
     }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 .call-out-img {

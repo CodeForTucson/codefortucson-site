@@ -1,18 +1,1 @@
 <!-- This should be inserted in the page *before* any page-specific JS -->
-<script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
-<script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
-
-<script>
-    //highlights current page in sitewide nav (_navbar.html)
-    $(document).ready(function(){
-    	$("#navbar-nav a").each(function() {
-        if (this.href == window.location.href || 
-            this.href + "index.html" == window.location.href || 
-            this.href == window.location.href + "index.html" ) {
-        		
-            $(this).parent().addClass("active");
-        	
-          }
-        });
-    });
-</script>
