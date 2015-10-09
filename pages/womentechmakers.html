@@ -16,4 +16,11 @@ slug: womentechmakers
 
   <h3>FAQ</h3>
 
+  {% for question in site.data.wtm_faq %}
+    <article class="col-lg-10">
+        <h3>{{ question.question }}</h3>
+        <p>{{ question.answer }}</p>
+    </article>
+  {% endfor %}
+
 </div>
