@@ -10,16 +10,18 @@ owner:
   twitter:
   facebook:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: 
+  google_plus:
 
 google_analytics:
-google_verify:  
+google_verify:
 
 sass:
   sass_dir: assets/_sass
 
 baseurl: http://codefortucson.github.io/codefortucson-site
 url: http://www.codefortucson.org
+
+img_dir: /assets/images
 
 kramdown:
   parse_block_html: true
