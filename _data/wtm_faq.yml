@@ -1,0 +1,9 @@
+####################
+# This is the FAQ text for the Tucson Women Techmakers event.
+# question: "FAQ text"
+# answer: "Answer to FAQ text"
+####################
+- question: "question text here"
+  answer: "answer text here"
+- question: "question text here, people want to know things"
+  answer: "answer text here, and we can answer things"
