@@ -3,7 +3,38 @@
 # question: "FAQ text"
 # answer: "Answer to FAQ text"
 ####################
-- question: "question text here"
-  answer: "answer text here"
-- question: "question text here, people want to know things"
-  answer: "answer text here, and we can answer things"
+- question: "What is a hackathon?"
+  answer: "An event for women of all different technical expertise to come together to develop awesome tech-driven projects over a short time period."
+
+- question: "“Hacking” sounds illegal/shady?"
+  answer: "Definitely not! Well, this kind of hacking is not. This hackathon provides the space for women to collaborate and work on ideas together."
+
+- question: "Is it going to cost me a fortune to attend?"
+  answer: "The entire event is FREE!"
+
+- question: "Do I need extensive hacking/tech skills to participate?"
+  answer: "Not at all! Women of all technical expertise and levels are encouraged to attend. No programming experience needed."
+
+- question: "I see that your event has workshops... Do those cost extra to attend?"
+  answer: "They are free! Workshops are available free of cost to registered attendees. Workshop topics cover a variety of tech-related topics, and are led by super-talented women too!"
+
+- question: "Why the asterisk on women?"
+  answer: "The word “women” can seem exclusive and alienating to some. We use the asterisk to include anyone who identifies as cis-women, trans*, intersex and queer people who identify as women. "
+
+- question: "Do I need to bring anything?"
+  answer: "A laptop is recommended. Don’t have one? No worries! Just bring your awesome self."
+
+- question: "Do I have to stay all day on both days?"
+  answer: "Nope! Stay as long as you like, and come and go as you please. "
+
+- question: "Will there be prizes?"
+  answer: "Heck yeah! Prizes in several categories, too (again, you don't *have* to be a coder to participate)."
+
+- question: "So... do you think I should attend?"
+  answer: "Heck yes! This is a great opportunity to network and collaborate with women techies of all levels. Also, this is your chance to bring your cool app idea, website idea, or product idea to life."
+
+- question: "I can’t contain myself. How do I sign up?"
+  answer: "I thought you’d ask! Register here: http://www.meetup.com/Google-Developer-Group-Tucson/events/225462550/"
+
+- question: "What happens if I have more questions?"
+  answer: "Direct your questions to marijelmelo@email.arizona.edu !"
