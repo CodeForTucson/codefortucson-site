@@ -22,8 +22,6 @@ baseurl: http://codefortucson.github.io/codefortucson-site
 url: http://www.codefortucson.org
 img_dir: assets/images
 
-img_dir: /assets/images
-
 kramdown:
   parse_block_html: true
 
