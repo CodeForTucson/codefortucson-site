@@ -459,3 +459,27 @@ img.project-git-human {
 .wtm-splash {
   width: 100%;
 }
+
+.wtm {
+  p,
+  ul li {
+    font-size: 18px;
+  }
+
+  h2:first-of-type {
+    font-size: 45px;
+    padding-top: 24px;
+  }
+
+  h3 {
+    padding-top: 24px;
+  }
+
+  article {
+    margin-bottom: 10px;
+  }
+}
+
+.wtm-space {
+  padding-top: 20px;
+}
