@@ -6,7 +6,8 @@ slug: projects
 ---
 
 <div class="col-lg-10">
-	{% for project in site.data.projects %}
+	{% assign project_list = site.projects | sort: 'date' | reverse %}
+	{% for project in project_list %}
       <article class="projects row">
 
       	<div class="col-lg-4">
@@ -14,11 +15,11 @@ slug: projects
         </div>
 
         <div class="col-lg-8">
-	        <h1>{{project.project}}</h1>
+	        <h1>{{project.title}}</h1>
 	        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
 	        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
-	        <p>{% if project.description %}{{ project.description }}{% else %}Coming soon!{% endif %}</p>
-	        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.project }}! &#8594;</a></p>
+	        <p>{% if project.content %}{{ project.content }}{% else %}Coming soon!{% endif %}</p>
+	        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.title }}! &#8594;</a></p>
 	      </div>
 
       </article>
