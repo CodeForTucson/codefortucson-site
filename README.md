@@ -11,10 +11,10 @@ This site is built on Github Pages, which uses [Jekyll](http://jekyllrb.com/) as
 
     # Install Ruby 2.0.0
     $ rvm install 2.0.0
-    
+
     # Create and use the Code for Tucson Gemset
     $ rvm use 2.0.0@codefortucson --create
-    
+
     # Install the dependencies
     $ bundle install
 
@@ -23,7 +23,6 @@ This site is built on Github Pages, which uses [Jekyll](http://jekyllrb.com/) as
 We depend on a few Ruby gems:
 
 * [Jekyll](http://jekyllrb.com)
-* [Kramdown](http://kramdown.gettalong.org)
 * [SASS](http://sass-lang.com)
 
 You should be able to install them via [RubyGems](https://rubygems.org). GitHub has built a meta package which pulls in all of these dependencies:
@@ -43,7 +42,7 @@ make
 That's all it takes! Now you have a running Jekyll server on your local machine that will automatically watch for changes to the source files and update accordingly in response.
 
 _If you are using RVM, make sure you are using the correct Gemset!_
-    
+
     $ rvm use 2.0.0@codefortucson
 
 You should now be able to visit [http://localhost:4000/](http://localhost:4000/) in your browser and see a copy of the Code for Tucson site hosted on your very own computer that updates when you save something! Zoiks!
@@ -59,7 +58,4 @@ Getting started with **git** can be confusing if you haven't worked with it befo
 
 <!-- ###Special pages:
 + Press page uses /data/press.csv to populate its press listing (but not the press releases, which are hard-coded)
-+ Projects page uses /data/projects.csv to populate the projects listing.
 + Blog pages are built programmatically using Jekyll from the entries in the /blog/_posts directory.  There is similar content in the /blog/drafts directory, but these entries are working copies only that are not displayed on teh public website. -->
-
-

@@ -30,7 +30,7 @@ slug: home
 			<h2><img src="{{ site.baseurl }}/{{ site.img_dir }}/community.png" alt="Community" class="call-out-img" />Join the discussion</h2>
 			<p>An open conversation online about Tucson, what we're doing now, and what's next.
 			</p>
-			<p><a href="/talk/">Learn and share &raquo;</a></p>
+			<p><a href="http://www.meetup.com/Code-for-Tucson/messages/boards/">Learn and share &raquo;</a></p>
     </div>
 
 		<div class="col-lg-4">
@@ -47,19 +47,20 @@ slug: home
 		<h2 class="blackish">what we're doing</h2>
 		<p class='lead'>Code for Tucson creates tools, information, and experiences that serve the Old Pueblo. <br/>See a sample of our projects below, or <a href="/projects/">browse the complete list here.</a> You are welcome to dive right in!</p>
 
-	  {% for project in site.data.projects limit:3 %}
+		{% assign project_list = site.projects | sort: 'date' | reverse %}
+		{% for project in project_list limit:3 %}
 	      <article class="projects row">
 
 	      	<div class="col-lg-4">
 		        <img {% if project.image %} src="{{ site.baseurl }}{{ project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{project.project}}">
 		      </div>
 
-		      <div class="col-lg-8">
-		        <h1>{{project.project}}</h1>
+					<div class="col-lg-8">
+		        <h1>{{project.title}}</h1>
 		        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
 		        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
-		        <p>{% if project.description %}{{ project.description }}{% else %}Coming soon!{% endif %}</p>
-		        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.project }}! &#8594;</a></p>
+		        <p>{% if project.content %}{{ project.content }}{% else %}Coming soon!{% endif %}</p>
+		        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.title }}! &#8594;</a></p>
 		      </div>
 
 	      </article>
