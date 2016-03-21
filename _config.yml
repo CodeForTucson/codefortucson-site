@@ -4,6 +4,9 @@ markdown: kramdown
 
 permalinks: pretty
 
+collections:
+   - projects
+
 owner:
   name: Code for Tucson
   twitter:
