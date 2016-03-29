@@ -14,7 +14,8 @@ owner:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
-google_analytics:
+google_container_id: "GTM-NWHWNQ"
+google_analytics: "UA-75440152-1"
 google_verify:
 
 sass:
