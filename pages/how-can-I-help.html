@@ -1,0 +1,16 @@
+---
+layout: subpage
+title: How can I help?
+permalink: /how-can-I-help/
+slug: how-can-I-help
+---
+
+<div class="col-lg-10">
+{% assign roles = site.contributor_roles | sort: 'title' %}
+{% for role in roles %}
+<div>
+  <h2>{{ role.title }}</h2>
+  <div>{{ role.content }}</div>
+</div>
+{% endfor %}
+</div>
