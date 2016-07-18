@@ -8,20 +8,6 @@ slug: projects
 <div class="col-lg-10">
 	{% assign project_list = site.projects | sort: 'date' | reverse %}
 	{% for project in project_list %}
-      <article class="projects row">
-
-      	<div class="col-lg-4">
-        	<img {% if project.image %} src="{{ site.baseurl }}{{ project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{project.project}}">
-        </div>
-
-        <div class="col-lg-8">
-	        <h1>{{project.title}}</h1>
-	        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
-	        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
-	        <p>{% if project.content %}{{ project.content }}{% else %}Coming soon!{% endif %}</p>
-	        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.title }}! &#8594;</a></p>
-	      </div>
-
-      </article>
-    {% endfor %}
+		{% include components/project-summary.html project=project %}
+  {% endfor %}
 </div>

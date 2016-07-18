@@ -47,23 +47,25 @@ slug: home
 		<h2 class="blackish">what we're doing</h2>
 		<p class='lead'>Code for Tucson creates tools, information, and experiences that serve the Old Pueblo. <br/>See a sample of our projects below, or <a href="/projects/">browse the complete list here.</a> You are welcome to dive right in!</p>
 
+		{% comment %}
+			Show three recent projects, but bump the Communityshare
+			project to the top of the list. We _could_ have used a
+			where expression in Jekyll, but that support was added
+			in version 3.2.0 and GitHub still runs 3.1.6 at the time
+			of this writing. See https://pages.github.com/versions/
+		{% endcomment %}
 		{% assign project_list = site.projects | sort: 'date' | reverse %}
-		{% for project in project_list limit:3 %}
-	      <article class="projects row">
-
-	      	<div class="col-lg-4">
-		        <img {% if project.image %} src="{{ site.baseurl }}{{ project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{project.project}}">
-		      </div>
-
-					<div class="col-lg-8">
-		        <h1>{{project.title}}</h1>
-		        <p>Project Lead: {% if project.lead %}{{ project.lead }}{% else %}Coming soon!{% endif %}</p>
-		        <p>Project Contact: {% if project.contact %}{{ project.contact }}{% else %}Coming soon!{% endif %}</p>
-		        <p>{% if project.content %}{{ project.content }}{% else %}Coming soon!{% endif %}</p>
-		        <p><a class="github-url" href="{{project.link}}"> {{ project.intro }} {{ project.title }}! &#8594;</a></p>
-		      </div>
-
-	      </article>
+		{% for project in project_list %}
+			{% if 'Community Share' != project.title %}
+				{% continue %}
+			{% endif %}
+			{% include components/project-summary.html project=project %}
+		{% endfor %}
+		{% for project in project_list limit:2 %}
+			{% if 'Community Share' == project.title %}
+				{% continue %}
+			{% endif %}
+			{% include components/project-summary.html project=project %}
 	  {% endfor %}
 
 	</div>
