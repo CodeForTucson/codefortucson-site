@@ -18,6 +18,8 @@ google_container_id: "GTM-NWHWNQ"
 google_analytics: "UA-75440152-1"
 google_verify:
 
+slackin_url: 'http://codefortucson-slackin.herokuapp.com/slackin.js?large'
+
 sass:
   sass_dir: assets/_sass
 
