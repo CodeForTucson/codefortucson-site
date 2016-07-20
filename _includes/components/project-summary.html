@@ -1,0 +1,15 @@
+<article class="projects row">
+
+  <div class="col-lg-4">
+    <img {% if include.project.image %} src="{{ site.baseurl }}{{ include.project.image }}"{% else %}src="{{ site.baseurl }}/assets/images/captain.png"{% endif %} alt="{{ include.project.project }}">
+  </div>
+
+  <div class="col-lg-8">
+    <h1>{{ include.project.title }}</h1>
+    <p>Project Lead: {% if include.project.lead %}{{ include.project.lead }}{% else %}Coming soon!{% endif %}</p>
+    <p>Project Contact: {% if include.project.contact %}{{ include.project.contact }}{% else %}Coming soon!{% endif %}</p>
+    <p>{% if include.project.content %}{{ include.project.content }}{% else %}Coming soon!{% endif %}</p>
+    <p><a class="github-url" href="{{ include.project.link }}"> {{ include.project.intro }} {{ include.project.title }}! &#8594;</a></p>
+  </div>
+
+</article>
