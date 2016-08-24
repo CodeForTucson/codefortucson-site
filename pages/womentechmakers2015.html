@@ -1,0 +1,55 @@
+---
+layout: event
+title: Tucson Women Techmakers
+permalink: /womentechmakers/2015/
+slug: womentechmakers
+---
+
+<div class="col-lg-10 wtm">
+
+  <img src="{{ site.baseurl }}/{{ site.img_dir }}/women-techmakers-poster-702x315.jpg" alt="Women Techmakers. Connect. Create. Celebrate." class="wtm-splash">
+
+
+  <h2> Women* Techmakers Tucson Hackathon</h2>
+  <h2>November 14 - 15, 2015</h2>
+
+  <p class="wtm-space">Google Development Group, Code for Tucson, and UA Libraries are proud to present the <strong> Women Techmakers Tucson Hackathon </strong> on November 14-15 at the University of Arizona's Science and Engineering Library.</p>
+
+  <p> Join us for a weekend of food, fun, learning, and hacking! This free event provides an opportunity for women of all levels of technical expertise to collaboratively develop tech-driven projects over the course of two days.</p>
+
+  <p>All women are encouraged to attend &#8212; no computer programming experience required! And projects are never built by ones and zeros alone &#8212; designers, product managers, community organizers, writers, and YOU are very much welcome!</p>
+
+  <p class="wtm-space"> <strong> Event highlights: </strong> </p>
+
+  <ul>
+    <li>Workshops on coding, rapid prototyping (e.g. electronic circuit building and 3D printing), and professional development</li>
+    <li>Mentoring and on-site tech support during project development</li>
+    <li>Professional development opportunities and community partnership occasions</li>
+    <li>Amazing swag, prizes, and food</li>
+    <li><b>Check out the full agenda at the bottom of this page!</b></li>
+  </ul>
+
+  <p class="wtm-space"> Don't miss out! Click <a href="http://www.meetup.com/Google-Developer-Group-Tucson/events/225462550/?a=socialmedia">here</a> to register for the event &#8212; space is limited. Have more questions? Check out our FAQ below. </p>
+
+  <h3>FAQ</h3>
+
+  {% for question in site.data.wtm_faq %}
+    <article class="col-lg-10">
+        <h4>{{ question.question }}</h4>
+        <p>{{ question.answer }}</p>
+    </article>
+  {% endfor %}
+
+  <div class="col-lg-10">
+
+    <h3>Schedule of Events</h3>
+
+    <p>Download schedule as a Word doc <a href="{{ site.baseurl }}/{{ site.img_dir }}/women-techmaker-full-schedule.docx">here</a></p>
+
+  </div>
+
+<img src="{{ site.baseurl }}/{{ site.img_dir }}/women-techmaker-saturday-schedule.png" alt="Women Techmakers Hackthon Final Saturday Agenda" class="wtm-splash">
+
+<img src="{{ site.baseurl }}/{{ site.img_dir }}/women-techmaker-sunday-schedule.png" alt="Women Techmakers Hackthon Final Sunday Agenda" class="wtm-splash">
+
+</div>
