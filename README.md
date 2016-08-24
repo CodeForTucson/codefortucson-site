@@ -5,6 +5,14 @@ This is the repository for the website for Code for Tucson, the Tucson chapter o
 
 This site is built on Github Pages, which uses [Jekyll](http://jekyllrb.com/) as a templating language.
 
+##Docker
+
+If you are looking for a _whaley_ simple way to develop locally, just install [Docker](https://docs.docker.com) and run the following command from the project directory.
+
+```bash
+docker run --rm -v $(pwd):/site -p 4000:4000 andredumas/github-pages serve --watch --config _config.yml,_config_local.yml --baseurl '' --verbose
+```
+
 ##Dependencies
 
 ###RVM Gemset [Recommended]
