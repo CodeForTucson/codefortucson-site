@@ -1,9 +1,9 @@
 ---
-title: Wizardmaker
+title: WizardMaker
 date: 2017-03-07
 link: https://github.com/CodeForTucson/wizardmaker
 intro: Come help with
-image: /assets/images/communityshare.png
+image: /assets/images/wizardmaker.png
 lead: Paul Tynan
 contact: paultynan89@gmail.com
 ---
