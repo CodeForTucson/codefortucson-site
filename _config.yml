@@ -5,6 +5,7 @@ markdown: kramdown
 permalinks: pretty
 
 collections:
+   - contributor_roles
    - projects
 
 owner:
