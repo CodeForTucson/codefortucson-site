@@ -1,6 +1,8 @@
 Code For Tucson Website
 =======================
 
+[![Slack Status](https://codefortucson-slackin.herokuapp.com/badge.svg)](http://codefortucson.slack.com)
+
 This is the repository for the website for Code for Tucson, the Tucson chapter of the Code for America Brigade program. It is based on the website for [Code for DC](http://www.codefordc.org).
 
 This site is built on Github Pages, which uses [Jekyll](http://jekyllrb.com/) as a templating language.
