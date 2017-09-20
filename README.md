@@ -5,7 +5,7 @@ This is the repository for the website for Code for Tucson, the Tucson chapter o
 
 This site is built on Github Pages, which uses [Jekyll](http://jekyllrb.com/) as a templating language.
 
-##Docker
+## Docker
 
 If you are looking for a _whaley_ simple way to develop locally, just install [Docker](https://docs.docker.com) and run the following command from the project directory.
 
@@ -13,9 +13,9 @@ If you are looking for a _whaley_ simple way to develop locally, just install [D
 docker run --rm -v $(pwd):/site -p 4000:4000 andredumas/github-pages serve --watch --config _config.yml,_config_local.yml --baseurl '' --verbose
 ```
 
-##Dependencies
+## Dependencies
 
-###RVM Gemset [Recommended]
+### RVM Gemset [Recommended]
 
     # Install Ruby 2.0.0
     $ rvm install 2.0.0
@@ -26,7 +26,7 @@ docker run --rm -v $(pwd):/site -p 4000:4000 andredumas/github-pages serve --wat
     # Install the dependencies
     $ bundle install
 
-###Manual Install [Not supported]
+### Manual Install [Not supported]
 
 We depend on a few Ruby gems:
 
@@ -55,7 +55,7 @@ _If you are using RVM, make sure you are using the correct Gemset!_
 
 You should now be able to visit [http://localhost:4000/](http://localhost:4000/) in your browser and see a copy of the Code for Tucson site hosted on your very own computer that updates when you save something! Zoiks!
 
-###To make changes:
+### To make changes:
 + Clone the repository on your computer with `git clone [https or ssh repo url]`. You can find this on GitHub as the **Clone URL**.
 + Create a new branch to work on your addition, bug-fix, or feature with `git checkout -b [name of new branch]`. Try to use names that describe what you are accomplishing, such as `add/hackathon-project-info`, `fix/wrong-meeting-time`, or `new/funny-cat-video-page`.
 + Always leave [useful commit messages](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message). Taking the time to explain your changes will help you to better understand your work and will prevent accidental mishaps.
